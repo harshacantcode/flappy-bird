@@ -80,7 +80,6 @@ while(play):
 
     while(waiting):
         startScreen()
-        #waiting = False
 
         for event in pygame.event.get():
             if(event.type == pygame.KEYDOWN):
